@@ -1,7 +1,6 @@
 ---
-title: <br/><br/><br/><br/><br/><br/><br/>
+title: <br/><br/><br/>"Bookmarks"<br/><br/><br/>
 permalink: /bookmarks/
-title: "Bookmarks"
 classes: wide
 header:
   overlay_image: /assets/images/bookmark.jpeg
