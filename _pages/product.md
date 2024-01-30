@@ -4,6 +4,6 @@ permalink: /product/
 layout: home
 classes: wide
 header:
-  overlay_image: /assets/images/product.webp
+  overlay_image: /assets/images/laptop.jpeg
 toc: true
 ---
