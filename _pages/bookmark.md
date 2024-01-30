@@ -1,6 +1,6 @@
 ---
 title: <br/><br/><br/><br/><br/><br/><br/>
-permalink: /bookmarks/
+permalink: /bookmark/
 layout: home
 classes: wide
 header:
