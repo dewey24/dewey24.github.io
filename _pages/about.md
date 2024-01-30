@@ -1,8 +1,9 @@
 ---
 permalink: /about/
-layout: home
+layout: posts
 classes: wide
 title: "About Me"
+author_profile: true
 toc: true
 ---
 
