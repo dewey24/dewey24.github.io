@@ -1,5 +1,5 @@
 ---
-title: <br/><br/><br/>Bookmarks<br/><br/><br/>
+# title: <br/><br/><br/>Bookmarks<br/><br/><br/>
 permalink: /bookmarks/
 layout: home
 classes: wide
