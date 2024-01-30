@@ -15,3 +15,4 @@ toc: true
 * Top 7 Product Management Articles to Read— Product Management [Link](https://bootcamp.uxdesign.cc/top-7-product-management-articles-to-read-product-management-8606fa7b4da7)
 * Harvard Business Review - Product Management [Link](https://hbr.org/topic/subject/product-management)
 * How to Become a Product Manager for AI/ML Products [Link](https://productschool.com/blog/future-of-tech/how-to-become-a-product-manager-for-ai-ml-products)
+* Product School Blog [Link](https://productschool.com/blog)
