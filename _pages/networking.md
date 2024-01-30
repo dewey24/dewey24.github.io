@@ -1,5 +1,5 @@
 ---
-title: <br/><br/><br/>Networking<br/><br/><br/>
+# title: <br/><br/><br/>Networking<br/><br/><br/>
 permalink: /networking/
 layout: home
 classes: wide
