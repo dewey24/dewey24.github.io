@@ -4,6 +4,6 @@ permalink: /bookmarks/
 layout: home
 classes: wide
 header:
-  overlay_image: /assets/images/bookmark.jpeg
+  overlay_image: /assets/images/bookmarks.jpeg
 toc: true
 ---
