@@ -1,7 +1,6 @@
 ---
-title: <br/><br/><br/><br/><br/><br/><br/>
+title: <br/><br/><br/>"Product Management"<br/><br/><br/>
 permalink: /product/
-title: "Product Management"
 classes: wide
 header:
   overlay_image: /assets/images/product.webp
