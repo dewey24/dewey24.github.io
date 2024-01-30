@@ -1,5 +1,5 @@
 ---
-title: <br/><br/><br/>"Artificial Intelligence"<br/><br/><br/>
+title: <br/><br/><br/><br/><br/><br/><br/>
 permalink: /ai/
 classes: wide
 header:
