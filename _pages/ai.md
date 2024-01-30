@@ -1,5 +1,5 @@
 ---
-title: <br/><br/><br/>Artificial Intelligence<br/><br/><br/>
+# title: <br/><br/><br/>Artificial Intelligence<br/><br/><br/>
 permalink: /ai/
 layout: home
 classes: wide
