@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-layout: posts
+layout: single
 classes: wide
 title: "About Me"
 author_profile: true
