@@ -1,24 +1,18 @@
 ---
-title: Trustworthy Online Controlled Experiments
+title: <br/><br/><br/>Trustworthy Online Controlled Experiments<br/><br/><br/>
 date: "10 Jan 2024"
-layout: posts
+layout: single
 header:
-  #overlay_image: /assets/images/enchantments_snow_lake.jpg
-  overlay_color: "#333"
+  overlay_image: /assets/images/walle.jpeg
+  #overlay_color: "#333"
   show_overlay_excerpt: false
-  #teaser: /assets/images/word2vec_visualization.PNG
+  teaser: /assets/images/experiments.jpeg
 tags:
 - "Machine Learning"
 - "Deep Learning"
 - Analytics
 - AI
 toc: true
----
-
-
----
-title: Trustworthy Online Experiments!
-date: "10 Jan 2024"
 ---
 
 # Notes from this "Must Read" book
