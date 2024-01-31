@@ -2,8 +2,8 @@
 title: <br/><br/><br/>Trustworthy Online Controlled Experiments<br/><br/><br/>
 date: "10 Jan 2024"
 layout: single
-classes: wide
-author_profile: false
+# classes: wide
+author_profile: true
 header:
   overlay_image: /assets/images/walle.jpeg
   #overlay_color: "#333"
@@ -18,6 +18,8 @@ toc: true
 ---
 
 # Notes from this "Must Read" book
+
+<img src="/assets/images/experiments.jpeg" alt="experiments" class="inline"/>
 
 
 ## <ins>**1. Use Scientific Method:**</ins> 
