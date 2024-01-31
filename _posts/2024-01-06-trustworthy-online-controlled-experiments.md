@@ -2,6 +2,7 @@
 title: <br/><br/><br/>Trustworthy Online Controlled Experiments<br/><br/><br/>
 date: "10 Jan 2024"
 layout: single
+classes: wide
 header:
   overlay_image: /assets/images/walle.jpeg
   #overlay_color: "#333"
