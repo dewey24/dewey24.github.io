@@ -3,6 +3,7 @@ title: <br/><br/><br/>Trustworthy Online Controlled Experiments<br/><br/><br/>
 date: "10 Jan 2024"
 layout: single
 classes: wide
+author_profile: false
 header:
   overlay_image: /assets/images/walle.jpeg
   #overlay_color: "#333"
@@ -322,7 +323,7 @@ ________________________________________________________________________________
 
 _________________________________________________________________________________________________________________________________________________________________________________
 
-# <ins>**What's a multi-arm bandit?:**</ins> 
+## <ins>**What's a multi-arm bandit?:**</ins> 
 A multi-armed bandit is a type of experiment where the experiment traffic allocation can be dynamically updated as the experiment progresses. For example, we can take a fresh look at the experiment every hour to see how each of the variants has performed, and we can adjust the fraction of traffic that each variant receives. A variant that appaers to be doing well gets more traffic and a varaint that is underperforming gets less.
 
 
