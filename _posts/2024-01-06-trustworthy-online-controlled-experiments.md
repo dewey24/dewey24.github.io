@@ -31,7 +31,7 @@ toc: true
 6. Conclusion
 
 
-#### <ins>**Twyman's Law**</ins> - Any statistic that looks interesting or different is usually wrong
+##### <ins>**Twyman's Law**</ins> - Any statistic that looks interesting or different is usually wrong
 * Double check results (too good to be true?)
 * Run validity tests (especially for breakthrough positive results)
 
@@ -47,7 +47,7 @@ ________________________________________________________________________________
 
 (User interactions are instrumented i.e. monitored & logged. From the logged data, metrics are computed, which allow us to assess the difference between the variants for each metric)
 
-#### <ins>**Multiple Channels**</ins>
+##### <ins>**Multiple Channels**</ins>
 * Websites
 * Desktop Applications
 * Mobile
@@ -170,13 +170,13 @@ ________________________________________________________________________________
 
 ## <ins>**6. Speed Matters:**</ins> 
 
-### 6.1 Slowdown experiments: How important is the latency?
+## 6.1 Slowdown experiments: How important is the latency?
 1. At Amazon, a 100 msec slowdown experiment decreased sales by 1%
 2. At Bing, a 100 msec speedup improves revenue by 0.6% (other key metrics: distinct queries, clicks, satisfaction, time-to-click, churn, CTR, revenue per user)
 
-### 6.2 Key assumption: local linear approximation
+## 6.2 Key assumption: local linear approximation
 
-### 6.3 Perceived Performance for PLT (page load time)
+## 6.3 Perceived Performance for PLT (page load time)
 * Time to first result
 * Above the Fold Time (AFT)
 * Speed Index
@@ -187,15 +187,15 @@ ________________________________________________________________________________
 ## <ins>**7. Organizational Metrics:**</ins> 
 
 ## 7.1 Metrics Taxonomy
-### OKR (Objectives & Key Results)
-### Goal / Sucess / North Star metrics
+#### OKR (Objectives & Key Results)
+#### Goal / Sucess / North Star metrics
   * Usually a single or very small set of metrics
-### Driver / Sign-post / Surrogate / Indirect / Predictive metrics
+#### Driver / Sign-post / Surrogate / Indirect / Predictive metrics
   * Tend to be shorter-term, faster moving and more sensitive
   * HEART framework (Happiness, Engagement, Adoption, Retention and Task Success)
   * AARRR framework (Acquistion, Activation, Retention, Referral and Revenue)
   * A good driver metric indicates that we are moving in the right direction to move the goal metrics)
-### Guardrail metrics
+#### Guardrail metrics
   * More sensistive than Goal or Driver metrics
   * Two types:
     * metrics that protect the business
@@ -212,18 +212,18 @@ ________________________________________________________________________________
     * client crashes / crash rate
   * Type 2:
     * Data quality metrics - ensure the internal validity & trustworthiness
-### Granular metrics
+#### Granular metrics
   * Page CTR can be broken into CTR on dozens of features on the page
-### Diagnosis or debug metrics
+#### Diagnosis or debug metrics
 
 
 ## 7.2 Formulating Metrics: Principles & Techniques
 
-### Ensure Goal metrics are:
+#### Ensure Goal metrics are:
 * Simple
 * Stable
 
-### Ensure Driver metrics are:
+#### Ensure Driver metrics are:
 * Aligned with the goal
 * Actionable and relevant
 * Sensitive
@@ -233,7 +233,7 @@ ________________________________________________________________________________
 
 ## <ins>**8. Overall evaluation criterion:**</ins> 
 
-### OEC must be:
+#### OEC must be:
 1. Measurable
   * Bad Example: post-purchase satisfaction can be challenging to measure
 3. Attributable
@@ -244,9 +244,9 @@ ________________________________________________________________________________
 7. Computable
 
 
-### OEC: weighted combination of several key goal and driver metrics (after normalization)
+#### OEC: weighted combination of several key goal and driver metrics (after normalization)
 
-### Example 1: Amazon email campaign
+#### Example 1: Amazon email campaign
 
 $$ OEC = ( \sum_{i=1}^n Rev_i - (s  \*  ULL)) / n $$
 $$ ULL = Unsubscribe Lifetime Loss $$
@@ -255,7 +255,7 @@ $$ ULL = Unsubscribe Lifetime Loss $$
 * n is the number of users in the variant
 * Unsubscribe Lifetime Loss is the estimated revenue loss for not being able to email a person for life
 
-### Example 1: Bing's search engine
+#### Example 1: Bing's search engine
 
 $$ Distinct queries = n (Users / Month)  \*  (Sessions / User)  \*  (Distinct queries / Session) $$
 
