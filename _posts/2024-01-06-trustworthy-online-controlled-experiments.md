@@ -1,6 +1,7 @@
 ---
 title: <br/><br/><br/>Trustworthy Online Controlled Experiments<br/><br/><br/>
 date: "10 Jan 2024"
+show_date: true
 layout: single
 # classes: wide
 author_profile: true
