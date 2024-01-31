@@ -31,7 +31,7 @@ toc: true
 6. Conclusion
 
 
-### <ins>**Twyman's Law**</ins> - Any statistic that looks interesting or different is usually wrong
+#### <ins>**Twyman's Law**</ins> - Any statistic that looks interesting or different is usually wrong
 * Double check results (too good to be true?)
 * Run validity tests (especially for breakthrough positive results)
 
@@ -47,7 +47,7 @@ ________________________________________________________________________________
 
 (User interactions are instrumented i.e. monitored & logged. From the logged data, metrics are computed, which allow us to assess the difference between the variants for each metric)
 
-## <ins>**Multiple Channels**</ins>
+#### <ins>**Multiple Channels**</ins>
 * Websites
 * Desktop Applications
 * Mobile
@@ -90,7 +90,10 @@ ________________________________________________________________________________
 
 ________________
 
-### <ins>_4.2 Threats to Internal Validity_</ins> - Experiment study should establish trustworth cause-and-effect relationship and avoid confounding variables
+### <ins>_4.2 Threats to Internal Validity_</ins>
+
+Experiment study should establish trustworth cause-and-effect relationship and avoid confounding variables
+
 * **Selection Bias**
 * **Non-Compliance**
 * **Interference**
@@ -123,7 +126,10 @@ ________________
 
 ________________
 
-### <ins>_4.3 Threats to External Validity_</ins> - Not generalizing to other populations or time periods
+### <ins>_4.3 Threats to External Validity_</ins>
+
+Not generalizing to other populations or time periods
+
 * **Sampling Error / Bias**
 * **Primacy Effect**
   * When a change is introduced, users may need time to adapt as they are primed in the old feature.
@@ -138,7 +144,7 @@ ________________________________________________________________________________
 
 ## <ins>**5. Segment Differences:**</ins> 
 
-### What are good segments?
+### 5.1 What are good segments?
 * _**Market or country / Language**_
 * _**Service or platform**_
   * Platform - iOS vs Android vs Windows
@@ -149,12 +155,12 @@ ________________________________________________________________________________
 * _**User type: new or existing**_
 * _**User account characterstics: single or shared; single or family**_
 
-### Segmented views are commonly used two ways:
+### 5.2 Segmented views are commonly used two ways:
 1. Segmented view of a metric, independent of any experiment
 2. Segmented view of the Treatment effect for a metric
    * Heterogeneous treatment effects - indicating that the Treatment effect is not homogeneous or uniform across different segments
 
-### Simpson's paradox:
+### 5.3 Simpson's paradox:
 * It is mathematically possible for a drug to increase the probability of recovery in the aggregate population yet decrease the probability in every sub-population
 ## "Sure thing principal" Theorem
 * If an action increases the probability of an event in each sub-population, it must also increase the probability of an event in population as a whole
@@ -164,13 +170,13 @@ ________________________________________________________________________________
 
 ## <ins>**6. Speed Matters:**</ins> 
 
-### Slowdown experiments: How important is the latency?
+### 6.1 Slowdown experiments: How important is the latency?
 1. At Amazon, a 100 msec slowdown experiment decreased sales by 1%
 2. At Bing, a 100 msec speedup improves revenue by 0.6% (other key metrics: distinct queries, clicks, satisfaction, time-to-click, churn, CTR, revenue per user)
 
-### Key assumption: local linear approximation
+### 6.2 Key assumption: local linear approximation
 
-### Perceived Performance for PLT (page load time)
+### 6.3 Perceived Performance for PLT (page load time)
 * Time to first result
 * Above the Fold Time (AFT)
 * Speed Index
@@ -180,7 +186,7 @@ ________________________________________________________________________________
 
 ## <ins>**7. Organizational Metrics:**</ins> 
 
-## Metrics Taxonomy
+## 7.1 Metrics Taxonomy
 ### OKR (Objectives & Key Results)
 ### Goal / Sucess / North Star metrics
   * Usually a single or very small set of metrics
@@ -211,7 +217,7 @@ ________________________________________________________________________________
 ### Diagnosis or debug metrics
 
 
-## Formulating Metrics: Principles & Techniques
+## 7.2 Formulating Metrics: Principles & Techniques
 
 ### Ensure Goal metrics are:
 * Simple
@@ -259,7 +265,7 @@ $$ Distinct queries = n (Users / Month)  \*  (Sessions / User)  \*  (Distinct qu
 
 _________________________________________________________________________________________________________________________________________________________________________________
 
-# <ins>**Quotes:**</ins> 
+## <ins>**9. Quotes:**</ins> 
 * One accurate measurement is worth more than a thousand expert opinions
 * We are poor at assessing the value of ideas. 80% of the time you/we are wrong about what a customer wants
 * Any statistic that looks interesting or different is usually wrong
@@ -271,7 +277,7 @@ ________________________________________________________________________________
 
 _________________________________________________________________________________________________________________________________________________________________________________
 
-# <ins>**Interesting Anecdotes:**</ins> 
+## <ins>**10. Interesting Anecdotes:**</ins> 
 
 ### **1. Microsoft Bing:**
 
