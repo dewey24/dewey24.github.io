@@ -19,7 +19,7 @@ toc: true
 
 # Notes from this "Must Read" book
 
-<img src="/assets/images/experiments.jpeg" alt="experiments" class="inline" width="75" height="125"/>
+<img src="/assets/images/experiments.jpeg" alt="experiments" class="inline" width="250" height="350"/>
 
 
 ## <ins>**1. Use Scientific Method:**</ins> 
