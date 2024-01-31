@@ -1,6 +1,7 @@
 ---
 title: Trustworthy Online Controlled Experiments
 date: "10 Jan 2024"
+layout: posts
 header:
   #overlay_image: /assets/images/enchantments_snow_lake.jpg
   overlay_color: "#333"
