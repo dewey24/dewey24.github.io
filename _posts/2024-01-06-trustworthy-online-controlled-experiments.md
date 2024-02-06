@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/walle.jpeg
   #overlay_color: "#333"
   show_overlay_excerpt: false
-  teaser: /assets/images/experiments.jpeg
+  #teaser: /assets/images/experiments.jpeg
 tags:
 - "Machine Learning"
 - "Deep Learning"
