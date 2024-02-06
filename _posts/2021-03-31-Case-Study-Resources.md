@@ -16,7 +16,7 @@ tags:
 toc: true
 ---
 
-
+# Case Study Frameworks and Examples
 
 * Producter Blog : 50 Product Management Case Studies [link](https://blog.producter.co/50-product-management-case-studies/)
 * Exponent Youtube Channel [link](https://www.youtube.com/@tryexponent)
