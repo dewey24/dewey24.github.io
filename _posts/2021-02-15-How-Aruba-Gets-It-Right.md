@@ -60,7 +60,7 @@ Agile Devops Methodology where a layered approach helps build features increment
 
  
 
-    **On a side note, it makes me wonder- do we need to go this fast and where are we exactly heading? Is perfection a necessity?**
+**On a side note, it makes me wonder- do we need to go this fast and where are we exactly heading? Is perfection a necessity?**
 
 We as humans have limited cognitive ability and is the very reason why we need to focus on what really matters.  Smarter solutions relieve us of the menial tasks so one can tackle the most important problems!  
 
