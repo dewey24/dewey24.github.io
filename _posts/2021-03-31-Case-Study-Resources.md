@@ -18,8 +18,8 @@ toc: true
 
 # Case Study Frameworks and Examples
 
-* Producter Blog : 50 Product Management Case Studies [link](https://blog.producter.co/50-product-management-case-studies/)
-* Exponent Youtube Channel [link](https://www.youtube.com/@tryexponent)
+* Producter Blog : 50 Product Management Case Studies [Link](https://blog.producter.co/50-product-management-case-studies/)
+* Exponent Youtube Channel [Link](https://www.youtube.com/@tryexponent)
   * Google Product Strategy Interview: Photo Storage [link](https://www.youtube.com/watch?v=Impwn4rCMKo)
   * Mock Product Manager Interview (LinkedIn PM): Improve Spotify's Social Features [link](https://www.youtube.com/watch?v=1dj0zA7jlGc)
   * Google Maps Product Manager Mock Interview [link](https://www.youtube.com/watch?v=CXdaPETE7iE)
