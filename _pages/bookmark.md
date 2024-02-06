@@ -1,7 +1,7 @@
 ---
 title: <br/><br/><br/><br/><br/><br/><br/>
 permalink: /bookmark/
-layout: posts
+layout: single
 classes: wide
 taxonomy: Bookmark
 header:
