@@ -19,6 +19,7 @@ author_profile: true
 
 * Critical Thinking And Analytical Skills
 * Great Understanding of UX / UI Best Practices
+* Great Understanding of Networking Cloud Services Landscape
 * Conducting Market Research
 * Writing Technical Specs And Requirements
 * Compliance & Licensing
