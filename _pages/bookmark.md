@@ -17,3 +17,6 @@ toc: true
 * Harvard Business Review - Product Management [Link](https://hbr.org/topic/subject/product-management)
 * How to Become a Product Manager for AI/ML Products [Link](https://productschool.com/blog/future-of-tech/how-to-become-a-product-manager-for-ai-ml-products)
 * Product School Blog [Link](https://productschool.com/blog)
+* Producter Blog : 50 Product Management Case Studies [Link](https://blog.producter.co/50-product-management-case-studies/)
+* Exponent Youtube Channel [Link](https://www.youtube.com/@tryexponent)
+* Top 10 Case Interview Frameworks [Link](https://mconsultingprep.com/case-interview-framework)
