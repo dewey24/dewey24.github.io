@@ -4,6 +4,7 @@ permalink: /bookmark/
 layout: single
 classes: wide
 taxonomy: Bookmark
+author_profile: true
 header:
   overlay_image: /assets/images/bookmark.jpeg
 toc: true
