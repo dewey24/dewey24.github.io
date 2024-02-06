@@ -21,6 +21,7 @@ toc: true
 _________________________________________________________________________________________________________________________________________________________________________________
 
 ## _**CLASSIFICATION METRICS**_
+
 1. Accuracy = (TP + TN) / (TP + FP + TN + FN)
 2. Error = (FP + FN) / (TP + FP + TN + FN)
 3. Precision +ve = TP / (TP + FP)
@@ -37,7 +38,8 @@ ________________________________________________________________________________
 _________________________________________________________________________________________________________________________________________________________________________________
 
 ## _**REGRESSION METRICS**_
-1. Error = | Actual_i - Prediction_i |
+
+1. Error = \|Actual_i - Prediction_i\|
 2. [MAPE](https://en.wikipedia.org/wiki/Mean_absolute_percentage_error) = AVERAGE {Error_i / Actual_i}
 3. [wMAPE](https://en.wikipedia.org/wiki/Mean_absolute_percentage_error#WMAPE) = SUM {Error_i} / SUM {Actual_i}
 * Most commonly the absolute percent errors are weighted by the actuals 
@@ -47,6 +49,7 @@ ________________________________________________________________________________
 _________________________________________________________________________________________________________________________________________________________________________________
 
 ## _**RANKING METRICS**_
+
 1. Precision at top-K - % of relevant items among top-K recommendations
 2. Mean Average Precision (MAP) - Avg. precision across different levels of recall
 3. Normalized Discounted Cumulative Gain
@@ -57,6 +60,7 @@ ________________________________________________________________________________
 _________________________________________________________________________________________________________________________________________________________________________________
 
 ## _**RECOMMENDER SYSTEMS METRICS**_
+
 1. Offline Evaluation Metrics - Classification Metrics; Regression Metrics; Ranking Metrics
 2. Online Evaluation Metrics - A/B Tests to measure increase in CTR (Click Trough Rate) or Sales
 
