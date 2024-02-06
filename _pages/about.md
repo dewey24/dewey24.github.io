@@ -13,10 +13,10 @@ author_profile: true
 
 ## Education
 
-* Master of Business Administration (MBA)
+* Master of Business Administration (MBA) <br/>
   [Santa Clara University, Leavey School of Business, Santa Clara, CA]
   
-* Master of Science (MS), Computer Networking
+* Master of Science (MS), Computer Networking <br/>
   [San Jose State University, San Jose, CA]
  
 
