@@ -13,8 +13,11 @@ author_profile: true
 
 ## Education
 
-* Master of Business Administration (MBA) [Santa Clara University, Leavey School of Business, Santa Clara, CA]
-* Master of Science (MS), Computer Networking [San Jose State University, San Jose, CA]
+* Master of Business Administration (MBA)
+  [Santa Clara University, Leavey School of Business, Santa Clara, CA]
+  
+* Master of Science (MS), Computer Networking
+  [San Jose State University, San Jose, CA]
  
 
 ## Hard Skills
@@ -39,3 +42,13 @@ author_profile: true
 * Ability to Prioritize
 * Quick Learner & Growth Mindset
 * Voracious Reader
+
+## Frameworks
+* Profitability Framework
+* Business Situation Framework
+* Porter Five Forces Model
+* External vs Internal
+* Qualitative vs Quantitative
+* Cost vs Benefits
+* 2×2 Matrix (e.g.: BCG Growth-Share Matrix)
+* SWOT Analysis
