@@ -18,6 +18,7 @@ toc: true
 
 
 * Producter Blog : 50 Product Management Case Studies [Link](https://blog.producter.co/50-product-management-case-studies/)
+  
 * Exponent Youtube Channel [Link](https://www.youtube.com/@tryexponent)
   * Google Product Strategy Interview: Photo Storage [link](https://www.youtube.com/watch?v=Impwn4rCMKo)
   * Mock Product Manager Interview (LinkedIn PM): Improve Spotify's Social Features [link](https://www.youtube.com/watch?v=1dj0zA7jlGc)
@@ -31,3 +32,5 @@ toc: true
   * Microsoft Product Manager Mock Interview: Improve Instagram Stories (Product Design) [link](https://www.youtube.com/watch?v=CGS_UCTtvlY)
   * Google Product Manager Execution Interview: YouTube Watch Time Root Cause Analysis [link](https://www.youtube.com/watch?v=l8s9_ScogCk)
   * Answer Product Sense Interview Questions Like A Pro [link](https://www.youtube.com/watch?v=WE0KeryvpXE)
+
+* Top 10 Case Interview Frameworks [Link](https://mconsultingprep.com/case-interview-framework)
