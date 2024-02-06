@@ -30,5 +30,5 @@ toc: true
   * [Curriculum - Design Product To Encourage Voting (with LinkedIn PM)](https://www.youtube.com/watch?v=jQhdz4j29fU)
   * [Meta Product Manager Mock Interview: Design a Fitness App](https://www.youtube.com/watch?v=O0K2gkCSy4o)
   * [Netflix Product Manager Interview: Inactive Users](https://www.youtube.com/watch?v=nbB1H6XpPuU)
-  * [Microsoft Product Manager Mock Interview: Improve Instagram Stories | Product Design](https://www.youtube.com/watch?v=CGS_UCTtvlY)
+  * [Microsoft Product Manager Mock Interview: Improve Instagram Stories (Product Design)](https://www.youtube.com/watch?v=CGS_UCTtvlY)
   * [Google Product Manager Execution Interview: YouTube Watch Time Root Cause Analysis](https://www.youtube.com/watch?v=l8s9_ScogCk)
