@@ -1,5 +1,5 @@
 ---
-title: <br/><br/><br/>Case Studies<br/><br/><br/>
+title: <br/><br/><br/>Case Study Resources<br/><br/><br/>
 date: "31 Mar 2021"
 show_date: true
 layout: single
