@@ -21,6 +21,7 @@ author_profile: true
 * Great Understanding of UX / UI Best Practices
 * Conducting Market Research
 * Writing Technical Specs And Requirements
+* Compliance & Licensing
 * Problem-Solving
 * Leadership And The Ability To Take Initiative 
 * Ability to Prioritize
