@@ -10,7 +10,7 @@ header:
   overlay_filter: 0.5
   #overlay_color: "#333"
   show_overlay_excerpt: false
-  #teaser: /assets/images/experiments.jpeg
+  teaser: /assets/images/cloudhike.png
 tags:
 - "Cloud"
 - "Networking"
