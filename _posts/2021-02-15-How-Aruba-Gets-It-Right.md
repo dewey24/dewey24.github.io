@@ -17,7 +17,7 @@ tags:
 toc: true
 ---
 
-<img src="/assets/images/cloudhike.png" alt="cloudhike" class="inline" width="800" height="480"/>
+<img src="/assets/images/cloudhike.png" alt="cloudhike" class="inline" width="250" height="480"/>
 
 In the age of the customer, technology transformation has outpaced our ability to stay relevant. It is practically impossible to keep track of a field full of flickering light bulbs where ideas flow, outgrow, shine and also succumb. In these ever-changing times, true success is in the ability to adapt, share ideas, take risks, willingness to give up and move-on. As nimble an enterprise strives to be, the hardest part is to cross-navigate several open-source technologies, peer solutions like public cloud and still maintain the level of control without compromising security. Doubling down on the complexity is the ever changing notion of edge. The use-case to begin with was to enable remote network manageability but with changing consumer preferences coupled with covid, there exists no boundary.
 
