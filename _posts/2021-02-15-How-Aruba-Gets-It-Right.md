@@ -7,6 +7,7 @@ classes: wide
 author_profile: true
 header:
   overlay_image: /assets/images/networking.png
+  overlay_filter: 0.5
   #overlay_color: "#333"
   show_overlay_excerpt: false
   #teaser: /assets/images/experiments.jpeg
