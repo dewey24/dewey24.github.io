@@ -16,7 +16,7 @@ tags:
 toc: true
 ---
 
-<img src="/assets/images/cloudhike.png" alt="cloudhike" class="inline" width="500" height="350"/>
+<img src="/assets/images/cloudhike.png" alt="cloudhike" class="inline" width="800" height="600"/>
 
 In the age of the customer, technology transformation has outpaced our ability to stay relevant. It is practically impossible to keep track of a field full of flickering light bulbs where ideas flow, outgrow, shine and also succumb. In these ever-changing times, true success is in the ability to adapt, share ideas, take risks, willingness to give up and move-on. As nimble an enterprise strives to be, the hardest part is to cross-navigate several open-source technologies, peer solutions like public cloud and still maintain the level of control without compromising security. Doubling down on the complexity is the ever changing notion of edge. The use-case to begin with was to enable remote network manageability but with changing consumer preferences coupled with covid, there exists no boundary.
 
@@ -34,29 +34,32 @@ Let us take a peek at some of the design practices followed at Aruba and why it 
 
    
 
-Agile Devops Methodology where a layered approach helps build features incrementally without compromising time-to-market and ability to adapt quickly to new changes. This has been the backbone of Aruba's Cloud journey.
+## 1. Agile Devops Methodology 
 
-## Kubernetes
+Where a layered approach helps build features incrementally without compromising time-to-market and ability to adapt quickly to new changes. This has been the backbone of Aruba's Cloud journey.
 
-**Kubernetes** - A popular open-source solution for automating deployment, scaling and management of containerized applications. Aruba’s flagship product Aruba Central, is a cloud service based on kubernetes designed for unified network manageability for campus,branch, remote and datacenter networks. Aruba’s ESP launch takes it a step further where it enables AIOps on top of this cloud data to predict and root cause problems even before they occur!  To get the hottest and the latest on this - https://www.arubanetworks.com/en-in/solutions/aiops/
+## 2. Kubernetes
 
-## Micro services architecture
+A popular open-source solution for automating deployment, scaling and management of containerized applications. Aruba’s flagship product Aruba Central, is a cloud service based on kubernetes designed for unified network manageability for campus,branch, remote and datacenter networks. Aruba’s ESP launch takes it a step further where it enables AIOps on top of this cloud data to predict and root cause problems even before they occur!  To get the hottest and the latest on this - https://www.arubanetworks.com/en-in/solutions/aiops/
 
-**Micro services architecture** - Think of those days where a phone service was bound by a 2 year contract and how one had to live with it even if they were unhappy. This world is comparable to mono-lithic architecture and with the influx of micro-service architecture, applications gained freedom as they are hosted as a collection of services and easily scalable.
+## 3. Micro services architecture
 
-## Continuous integration/continuous delivery
+Think of those days where a phone service was bound by a 2 year contract and how one had to live with it even if they were unhappy. This world is comparable to mono-lithic architecture and with the influx of micro-service architecture, applications gained freedom as they are hosted as a collection of services and easily scalable.
 
-**Continuous integration/continuous delivery** pipeline tools help monitoring the release workflow. 
+## 4. Continuous integration/continuous delivery
 
-
-## Security scanning
-
-**Security scanning** - where essentially the code is submitted for review via GIT and subjected to test suites to gauge any security vulnerabilities, bugs which the developers can act upon before the code merges onto production environment.
+CI/CD pipeline tools help monitoring the release workflow. 
 
 
-## Automation framework
+## 5. Security scanning
 
-**Automation framework** - wherever possible improves efficiency.
+Where essentially the code is submitted for review via GIT and subjected to test suites to gauge any security vulnerabilities, bugs which the developers can act upon before the code merges onto production environment.
+
+
+## 6. Automation framework
+
+Wherever possible improves efficiency.
+
 
 ## Footnote 
 
