@@ -16,6 +16,7 @@ tags:
 toc: true
 ---
 
+
 * Producter Blog : 50 Product Management Case Studies [Link](https://blog.producter.co/50-product-management-case-studies/)
 * Exponent Youtube Channel [Link](https://www.youtube.com/@tryexponent)
   * Google Product Strategy Interview: Photo Storage [link](https://www.youtube.com/watch?v=Impwn4rCMKo)
