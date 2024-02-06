@@ -31,7 +31,7 @@ Just like it takes an entire army of ants to build an anthill, Aruba’s success
 
  
 
-Let us take a peek at some of the design practices followed at Aruba and why it generates a broader appeal in the industry-   
+Let us take a peek at some of the design practices followed at Aruba and why it generates a broader appeal in the industry :   
 
    
 
