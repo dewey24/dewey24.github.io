@@ -6,11 +6,11 @@ layout: single
 classes: wide
 author_profile: true
 header:
-  overlay_image: /assets/images/aws_azure_gcp.jpeg
+  overlay_image: /assets/images/laptop.jpeg
   #overlay_color: "#333"
   show_overlay_excerpt: false
   #teaser: /assets/images/experiments.jpeg
-  caption: "Photo Credits: [**moveworkforward.com**](https://www.moveworkforward.com/blog/aws-vs-azure-vs-google-cloud-which-cloud-services-is-better-for-enterprises)" 
+  #caption: "Photo Credits: [**moveworkforward.com**](https://www.moveworkforward.com/blog/aws-vs-azure-vs-google-cloud-which-cloud-services-is-better-for-enterprises)" 
 tags:
 - Product
 - Analytics
