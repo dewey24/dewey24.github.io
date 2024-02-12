@@ -56,3 +56,4 @@ toc: true
 
 
 * [Cloud Services : AWS vs Azure vs GCP](https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)
+* [AWS to Azure services comparison](https://learn.microsoft.com/en-us/azure/architecture/aws-professional/services)
