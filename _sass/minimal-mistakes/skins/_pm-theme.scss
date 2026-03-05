@@ -1,0 +1,117 @@
+/* ==========================================================================
+   Product Manager Theme - Colorful & Vibrant
+   ========================================================================== */
+
+/* PM Color Palette - Vibrant & Professional */
+$pm-primary: #6366f1 !default;      /* Indigo - Primary brand */
+$pm-secondary: #ec4899 !default;    /* Pink - Accent */
+$pm-success: #10b981 !default;      /* Emerald - Growth/Success */
+$pm-warning: #f59e0b !default;      /* Amber - Metrics/Alerts */
+$pm-info: #06b6d4 !default;         /* Cyan - Insights */
+$pm-purple: #8b5cf6 !default;       /* Violet - Strategy */
+$pm-coral: #f97316 !default;        /* Orange - Innovation */
+
+/* Base Colors */
+$background-color: #0f172a !default;           /* Deep navy/slate background */
+$text-color: #f8fafc !default;                 /* Off-white text */
+$muted-text-color: #94a3b8 !default;           /* Slate muted text */
+$primary-color: $pm-primary !default;
+$secondary-color: $pm-secondary !default;
+
+/* Borders & Forms */
+$border-color: rgba(99, 102, 241, 0.3) !default;
+$form-background-color: #1e293b !default;
+$code-background-color: #1e293b !default;
+$code-background-color-dark: #0f172a !default;
+
+/* Footer */
+$footer-background-color: linear-gradient(135deg, #1e293b 0%, #0f172a 100%) !default;
+
+/* Links */
+$link-color: $pm-info !default;
+$link-color-hover: mix(#fff, $link-color, 30%) !default;
+$link-color-visited: mix(#000, $link-color, 20%) !default;
+
+/* Masthead */
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $pm-secondary !default;
+$navicon-link-color-hover: rgba(99, 102, 241, 0.2) !default;
+
+/* Notices */
+$notice-background-mix: 85% !default;
+$code-notice-background-mix: 90% !default;
+
+/* Syntax highlighting (vibrant base16) */
+$base00: #0f172a !default;
+$base01: #1e293b !default;
+$base02: #334155 !default;
+$base03: #64748b !default;
+$base04: #94a3b8 !default;
+$base05: #cbd5e1 !default;
+$base06: #e2e8f0 !default;
+$base07: #f1f5f9 !default;
+$base08: #f472b6 !default;  /* Pink */
+$base09: #fb923c !default;  /* Orange */
+$base0a: #facc15 !default;  /* Yellow */
+$base0b: #4ade80 !default;  /* Green */
+$base0c: #22d3ee !default;  /* Cyan */
+$base0d: #60a5fa !default;  /* Blue */
+$base0e: #a78bfa !default;  /* Purple */
+$base0f: #f87171 !default;  /* Red */
+
+/* Social Icons */
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
+
+/* Pagination buttons */
+.pagination--pager {
+  color: $text-color;
+  background: linear-gradient(135deg, $pm-primary 0%, $pm-purple 100%);
+  border-color: transparent;
+  transition: all 0.3s ease;
+
+  &:visited {
+    color: $text-color;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+  }
+}
+
+/* Search box styling */
+.ais-search-box .ais-search-box--input {
+  background-color: $form-background-color;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+}
+
+/* Custom PM theme classes */
+.pm-gradient-text {
+  background: linear-gradient(135deg, $pm-primary 0%, $pm-secondary 50%, $pm-coral 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.pm-glow {
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+}
+
+.pm-card {
+  background: linear-gradient(145deg, #1e293b 0%, #0f172a 100%);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(99, 102, 241, 0.25);
+    border-color: rgba(99, 102, 241, 0.4);
+  }
+}

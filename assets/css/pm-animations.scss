@@ -1,0 +1,353 @@
+/* ==========================================================================
+   PM Theme Animations and Custom Styles
+   ========================================================================== */
+
+/* CSS Variables for PM Theme */
+:root {
+  --pm-primary: #6366f1;
+  --pm-secondary: #ec4899;
+  --pm-success: #10b981;
+  --pm-warning: #f59e0b;
+  --pm-info: #06b6d4;
+  --pm-purple: #8b5cf6;
+  --pm-coral: #f97316;
+  --pm-bg: #0f172a;
+  --pm-bg-light: #1e293b;
+}
+
+/* ===== HOME PAGE STYLES ===== */
+.pm-home-page {
+  background: linear-gradient(135deg, var(--pm-bg) 0%, #1a1a2e 50%, var(--pm-bg) 100%);
+  min-height: 100vh;
+}
+
+.pm-home-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Animated Header */
+.pm-home-header {
+  text-align: center;
+  padding: 4rem 2rem;
+  animation: fadeInDown 1s ease-out;
+}
+
+.pm-home-header h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, 
+    var(--pm-primary) 0%, 
+    var(--pm-secondary) 50%, 
+    var(--pm-coral) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientShift 8s ease infinite;
+  background-size: 200% 200%;
+}
+
+.pm-home-subtitle {
+  font-size: 1.5rem;
+  color: #94a3b8;
+  animation: fadeInUp 1s ease-out 0.3s both;
+}
+
+/* Feature Cards Grid */
+.pm-home-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+  padding: 2rem 0;
+}
+
+/* Individual Feature Cards */
+.pm-card {
+  background: linear-gradient(145deg, var(--pm-bg-light) 0%, var(--pm-bg) 100%);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation: fadeInUp 0.8s ease-out;
+  animation-fill-mode: both;
+}
+
+.pm-card-1 { animation-delay: 0.2s; }
+.pm-card-2 { animation-delay: 0.4s; }
+.pm-card-3 { animation-delay: 0.6s; }
+
+.pm-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 
+    0 20px 40px rgba(99, 102, 241, 0.3),
+    0 0 60px rgba(236, 72, 153, 0.1);
+  border-color: rgba(99, 102, 241, 0.5);
+}
+
+.pm-card h3 {
+  color: #f8fafc;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.pm-card p {
+  color: #94a3b8;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Card-specific accent colors */
+.pm-card-1:hover {
+  border-color: rgba(99, 102, 241, 0.6);
+  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.3);
+}
+
+.pm-card-2:hover {
+  border-color: rgba(236, 72, 153, 0.6);
+  box-shadow: 0 20px 40px rgba(236, 72, 153, 0.3);
+}
+
+.pm-card-3:hover {
+  border-color: rgba(16, 185, 129, 0.6);
+  box-shadow: 0 20px 40px rgba(16, 185, 129, 0.3);
+}
+
+/* Recent Posts Section */
+.pm-home-posts {
+  margin-top: 4rem;
+  padding: 2rem;
+}
+
+.pm-home-posts .archive__subtitle {
+  text-align: center;
+  color: #f8fafc;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, var(--pm-info), var(--pm-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Post Cards */
+.pm-post-card {
+  background: linear-gradient(145deg, var(--pm-bg-light) 0%, var(--pm-bg) 100%);
+  border: 1px solid rgba(99, 102, 241, 0.15);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.6s ease-out;
+  animation-fill-mode: both;
+}
+
+.pm-post-card:hover {
+  transform: translateX(8px);
+  border-color: rgba(99, 102, 241, 0.4);
+  box-shadow: 0 8px 25px rgba(99, 102, 241, 0.2);
+}
+
+.pm-post-card h4 {
+  margin: 0 0 0.5rem 0;
+}
+
+.pm-post-card h4 a {
+  color: #f8fafc;
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: color 0.3s ease;
+}
+
+.pm-post-card h4 a:hover {
+  color: var(--pm-secondary);
+}
+
+.pm-post-meta {
+  color: #64748b;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+/* ===== ANIMATIONS ===== */
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes gradientShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.02);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(99, 102, 241, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.6), 0 0 40px rgba(236, 72, 153, 0.3);
+  }
+}
+
+/* Floating animation for cards */
+.pm-card {
+  animation: fadeInUp 0.8s ease-out, float 6s ease-in-out infinite;
+}
+
+.pm-card-1 { animation-delay: 0.2s, 0s; }
+.pm-card-2 { animation-delay: 0.4s, 1s; }
+.pm-card-3 { animation-delay: 0.6s, 2s; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .pm-home-header h1 {
+    font-size: 2rem;
+  }
+  
+  .pm-home-subtitle {
+    font-size: 1.125rem;
+  }
+  
+  .pm-home-features {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .pm-card {
+    padding: 1.5rem;
+  }
+}
+
+/* ===== MASTHEAD CUSTOMIZATION ===== */
+.masthead {
+  background: rgba(15, 23, 42, 0.95) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.greedy-nav {
+  background: transparent !important;
+}
+
+.greedy-nav a {
+  color: #f8fafc !important;
+  transition: color 0.3s ease;
+}
+
+.greedy-nav a:hover {
+  color: var(--pm-secondary) !important;
+}
+
+/* ===== FOOTER CUSTOMIZATION ===== */
+.page__footer {
+  background: linear-gradient(135deg, var(--pm-bg-light) 0%, var(--pm-bg) 100%) !important;
+  border-top: 1px solid rgba(99, 102, 241, 0.2);
+  color: #94a3b8;
+}
+
+.page__footer a {
+  color: var(--pm-info) !important;
+  transition: color 0.3s ease;
+}
+
+.page__footer a:hover {
+  color: var(--pm-secondary) !important;
+}
+
+/* ===== SCROLLBAR STYLING ===== */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--pm-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--pm-primary), var(--pm-secondary));
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(var(--pm-secondary), var(--pm-coral));
+}
+
+/* ===== LOADING ANIMATION ===== */
+.pm-loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--pm-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  animation: fadeOut 0.5s ease-out 1s forwards;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
