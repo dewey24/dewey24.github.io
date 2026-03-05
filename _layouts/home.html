@@ -1,22 +1,49 @@
 ---
-layout: archive
+layout: default
 ---
 
-{{ content }}
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
+<div class="pm-home-page">
+  <div class="pm-home-content">
+    <div class="pm-home-header">
+      <h1 class="pm-gradient-text">{{ site.title | default: site.github.repository_name }}</h1>
+      <p class="pm-home-subtitle">{{ site.description | default: "Product Management, Technology & Innovation" }}</p>
+    </div>
+    
+    <div class="pm-home-features">
+      <div class="pm-card pm-card-1">
+        <h3>[STRATEGY] Product Strategy</h3>
+        <p>Comprehensive product management strategies for modern digital products.</p>
+      </div>
+      <div class="pm-card pm-card-2">
+        <h3>[LAUNCH] Product Launch</h3>
+        <p>Expert guidance for successful product launches and market entry.</p>
+      </div>
+      <div class="pm-card pm-card-3">
+        <h3>[GROWTH] Growth Hacking</h3>
+        <p>Innovative growth strategies for rapid user acquisition and retention.</p>
+      </div>
+    </div>
+    
+    <div class="pm-home-posts">
+      <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+      
+      {% if paginator %}
+        {% assign posts = paginator.posts %}
+      {% else %}
+        {% assign posts = site.posts %}
+      {% endif %}
+      
+      {% assign entries_layout = page.entries_layout | default: 'list' %}
+      <div class="entries-{{ entries_layout }}">
+        {% for post in posts %}
+        <div class="pm-post-card">
+          <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+          <p class="pm-post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </div>
 
 {% include paginator.html %}
